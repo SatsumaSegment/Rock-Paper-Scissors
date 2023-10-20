@@ -10,7 +10,7 @@ for (var i = 0; i < 10; i++) {
         var computerChoice = rPS [Math.floor(Math.random()*rPS.length)];
     if (choice == computerChoice) {
         tie++;
-        alert("Draw + " + "Computer also chose " + computerChoice)
+        alert("Draw - " + "Computer also chose " + computerChoice)
     } else if (choice == "r" && computerChoice == "p") {
         computerWins++;
         alert("Computer wins - " + "Computer chose " + computerChoice)
