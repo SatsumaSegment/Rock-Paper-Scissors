@@ -7,6 +7,7 @@ var tie = 0;
 
 for (var i = 0; i < 10; i++) {
         var choice = prompt("Enter r, p or s");
+        choice = choice.toLowerCase()
         var computerChoice = rPS [Math.floor(Math.random()*rPS.length)];
     if (choice == computerChoice) {
         tie++;
