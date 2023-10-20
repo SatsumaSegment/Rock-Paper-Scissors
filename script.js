@@ -5,6 +5,7 @@ var playerWins = 0;
 var computerWins = 0;
 var tie = 0;
 
+function rockPaperScissors(){
 for (var i = 0; i < 10; i++) {
         var choice = prompt("Enter r, p or s");
         choice = choice.toLowerCase()
@@ -42,3 +43,4 @@ for (var i = 0; i < 10; i++) {
     } else if (computerWins == playerWins) {
         alert("Nobody won :(")
     }
+}
